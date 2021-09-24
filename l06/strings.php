@@ -35,3 +35,7 @@ JS;
 echo $nowdoc, PHP_EOL, $heredoc, PHP_EOL;
 
 
+// ****************** Конкатинация - Объединение строк ******************
+$concat = 'This strings' . 'is concatenated' . PHP_EOL . 'From 2 strings' . PHP_EOL;
+echo $concat;
+
