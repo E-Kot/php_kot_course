@@ -19,7 +19,7 @@ echo $fruit, PHP_EOL;
 $tes2t = 123;
 $_test_2v = 123;
 $minSum = 12;
-$allStudentslist = [];
+$allStudentsList = [];
 
 
 $test = 'TEST';
