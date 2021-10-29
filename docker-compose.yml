@@ -6,5 +6,16 @@ services:
     volumes:
       - ./:/var/www
     working_dir: /var/www
+  nginx:
+    image: nginx:1.17
+    container_name: skillup_nginx
+    ports:
+      - 8011:80
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx/skillup.local.conf:/etc/nginx/conf.d/skillup.local.conf
+    depends_on:
+      - app
+
 
 
